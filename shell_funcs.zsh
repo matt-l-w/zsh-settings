@@ -20,3 +20,8 @@ wttr () {
 vrc-up () {
   gist -u https://gist.github.com/923efc580ffff32fd209fff53a3fc74c ~/.vimrc
 }
+
+herdb () {
+  heroku pg:psql $*
+}
+
