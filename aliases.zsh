@@ -5,3 +5,8 @@ alias vf='vim $(fzf)'
 alias nh='telnet nethack.alt.org'
 alias senv='source venv/bin/activate'
 
+# git aliases
+alias gg='git grep'
+alias ggi='git grep -i'
+## recent branches
+alias gbrr='git branch --sort=-creatordate'
